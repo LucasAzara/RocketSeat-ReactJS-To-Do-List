@@ -30,7 +30,7 @@ export function TaskList() {
   }
 
   function handleToggleTaskCompletion(id: number) {
-    // Find Index of Task using ID
+    // Find Index of Task using ID and toggle boolean value
     const newTasks = tasks.map((task) => {
       if (task.id != id) return task;
 
